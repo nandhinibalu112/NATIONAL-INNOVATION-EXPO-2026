@@ -191,8 +191,8 @@
     let height = 0;
 
     function resizeCanvas() {
-      width = canvas.offsetWidth;
-      height = canvas.offsetHeight;
+      width = window.innerWidth;
+      height = window.innerHeight;
       canvas.width = width;
       canvas.height = height;
     }
@@ -206,11 +206,14 @@
       reset() {
         this.x = Math.random() * width;
         this.y = height + Math.random() * 20;
-        this.size = Math.random() * 2.0 + 0.8;
-        this.speedY = Math.random() * 0.35 + 0.15;
+        
+        // Throttled particle sizes on mobile screens
+        const isMobile = window.innerWidth <= 768;
+        this.size = isMobile ? (Math.random() * 1.2 + 0.5) : (Math.random() * 2.0 + 0.8);
+        this.speedY = isMobile ? (Math.random() * 0.2 + 0.1) : (Math.random() * 0.35 + 0.15);
         this.speedX = Math.random() * 0.2 - 0.1;
         this.opacity = 0;
-        this.maxOpacity = Math.random() * 0.4 + 0.15;
+        this.maxOpacity = isMobile ? (Math.random() * 0.25 + 0.1) : (Math.random() * 0.4 + 0.15);
         this.fadeSpeed = 0.005 + Math.random() * 0.005;
       }
 
@@ -237,7 +240,9 @@
 
     function initParticles() {
       particles = [];
-      const count = 25;
+      // Reduced count on mobile device widths
+      const isMobile = window.innerWidth <= 768;
+      const count = isMobile ? 12 : 28;
       for (let i = 0; i < count; i++) {
         particles.push(new GoldParticle());
       }
@@ -252,26 +257,10 @@
       animationFrameId = requestAnimationFrame(animateParticles);
     }
 
-    const heroObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          if (!animationFrameId) {
-            resizeCanvas();
-            initParticles();
-            animateParticles();
-          }
-        } else {
-          if (animationFrameId) {
-            cancelAnimationFrame(animationFrameId);
-            animationFrameId = null;
-          }
-        }
-      });
-    }, { threshold: 0 });
-
-    if (heroSection) {
-      heroObserver.observe(heroSection);
-    }
+    // Run continuously site-wide
+    resizeCanvas();
+    initParticles();
+    animateParticles();
 
     window.addEventListener('resize', () => {
       resizeCanvas();
