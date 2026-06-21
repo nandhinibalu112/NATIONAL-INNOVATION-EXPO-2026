@@ -3055,9 +3055,36 @@ button { cursor: pointer; font-family: var(--font); }
   .different-grid { grid-template-columns: 1fr 1fr; }
 
   /* Structure & Timeline */
-  .timeline-line { display: none; }
-  .competition-flow { flex-direction: column; gap: 24px; }
-  .flow-step { max-width: 100%; width: 100%; }
+  .timeline {
+    flex-direction: column;
+    gap: 36px;
+    align-items: stretch;
+  }
+  .flow-step {
+    max-width: 100%;
+    width: 100%;
+    flex: none;
+  }
+  .timeline-connector {
+    width: 3px;
+    height: 36px;
+    min-height: 36px;
+    margin: -18px auto;
+    flex: none;
+  }
+  .timeline-connector::after {
+    top: 0;
+    left: -18px;
+    width: 40px;
+    height: 9px;
+    animation: timelinePulseVertical 3s infinite linear;
+  }
+  @keyframes timelinePulseVertical {
+    0% { top: 0%; opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { top: 100%; opacity: 0; }
+  }
 
   .honeycomb-grid { max-width: 100%; }
   .hexagon-tile:nth-child(even) { margin-top: 0px; }
@@ -3097,6 +3124,10 @@ button { cursor: pointer; font-family: var(--font); }
   .hero-buttons .btn { width: 100%; max-width: 320px; height: 48px; } /* Ensures easy tapping */
   .hero-scroll-hint { display: none; }
 
+  .stats-section {
+    margin-top: 24px;
+    padding: 24px 0;
+  }
   .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
   .stat-card:nth-child(5) { grid-column: span 2; }
   .stat-number { font-size: 2.2rem; }
@@ -3332,7 +3363,7 @@ button { cursor: pointer; font-family: var(--font); }
    NEW COMPONENTS: Trust Strips, Get Involved, & Organized By
    ────────────────────────────────────────── */
 .trust-strip-section {
-  background: #111013;
+  background: transparent;
   border-top: 1px solid rgba(212, 164, 55, 0.1);
   border-bottom: 1px solid rgba(212, 164, 55, 0.1);
   padding: 16px 0;
