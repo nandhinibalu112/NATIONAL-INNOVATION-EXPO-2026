@@ -3,91 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>National Innovation Expo 2026 | Dominova × Sathyabama</title>
-  <meta name="description" content="Official Event Website for National Innovation Expo 2026. Presented by Dominova in partnership with Sathyabama Institute of Science and Technology. Connecting India's next generation of innovators." />
-  <meta property="og:title" content="National Innovation Expo 2026 | Dominova × Sathyabama" />
-  <meta property="og:description" content="National-level student innovation expo in Chennai. Discover project categories, startup stalls, and partnership opportunities." />
+  <title>TECH AURA 2026 | National Innovation Expo</title>
+  <meta name="description" content="Official partnership and sponsorship acquisition portal for TECH AURA 2026. Organized by Sathyabama Institute of Science and Technology, Chennai." />
+  <meta property="og:title" content="TECH AURA 2026 | National Innovation Expo" />
+  <meta property="og:description" content="Sponsorship acquisition, startup exhibition booths, and innovation strategic deck." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  
+  <!-- Subgrid lines background effect -->
+  <div class="sub-bg-grid" aria-hidden="true"></div>
+  <!-- Floating canvas background elements -->
   <div class="global-hex-bg" id="global-hex-bg"></div>
 
-  <!-- ===================== STICKY NAV ===================== -->
-  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <!-- ===================== STICKY NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main Navigation">
     <div class="nav-inner">
       <div class="nav-brand">
-        <a href="#hero" class="nav-logo-link" aria-label="National Innovation Expo 2026 - Home">
-          <img src="logo.png" alt="Dominova" class="nav-logo" />
+        <a href="#hero" class="nav-logo-link" aria-label="TECH AURA 2026 - Home">
+          <img src="logo.png" alt="Dominova logo" class="nav-logo" />
         </a>
         <span class="nav-brand-sep" aria-hidden="true"></span>
-        <span class="brand-text">NIE<span class="brand-accent">2026</span></span>
+        <span class="brand-text">TECH<span class="brand-accent">AURA</span></span>
       </div>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks" role="list">
         <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#updates" class="nav-link">Updates</a></li>
         <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#different" class="nav-link">Why Different</a></li>
-        <li><a href="#structure" class="nav-link">Event Journey</a></li>
-        <li><a href="#get-involved" class="nav-link">Partner With Us</a></li>
-        <li><a href="#impact" class="nav-link">Impact</a></li>
+        <li><a href="#sponsorship" class="nav-link">Sponsorship</a></li>
+        <li><a href="#stalls" class="nav-link">Startup Stalls</a></li>
+        <li><a href="#downloads" class="nav-link">Downloads</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cta-item"><a href="#downloads" class="nav-cta">Download Deck</a></li>
+        <li class="nav-cta-item-sec">
+          <button class="nav-cta-sec disabled-btn" title="Registration opens soon" data-tooltip="Registration opens soon">
+            Registration <span class="badge-soon">COMING SOON</span>
+          </button>
+        </li>
       </ul>
     </div>
   </nav>
 
   <main>
-
-    <!-- ===================== HERO ===================== -->
-    <section class="hero" id="hero" aria-label="Hero section">
-      <div class="hero-bg-grid"></div>
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="hero" aria-label="Tech Aura 2026 Home">
       <canvas id="hero-particles"></canvas>
       <div class="hero-orb-wrap-1"><div class="hero-orb hero-orb-1"></div></div>
       <div class="hero-orb-wrap-2"><div class="hero-orb hero-orb-2"></div></div>
       <div class="hero-orb-wrap-3"><div class="hero-orb hero-orb-3"></div></div>
       <div class="container hero-content">
         <div class="hero-logo-lockup animate-fade-up">
-          <img src="logo.png" alt="Dominova" class="hero-logo" />
+          <img src="logo.png" alt="Dominova logo" class="hero-logo" />
         </div>
         <div class="hero-kicker animate-fade-up">
           <span>TECH AURA 2026 PRESENTS</span>
         </div>
         <div class="hero-eyebrow animate-fade-up">
-          <span class="eyebrow-badge">DOMINOVA × SATHYABAMA INSTITUTE OF SCIENCE AND TECHNOLOGY</span>
+          <span class="eyebrow-badge">Organized By Sathyabama Institute of Science and Technology</span>
         </div>
         <h1 class="hero-headline animate-fade-up delay-1">
-          NATIONAL INNOVATION<br />
-          <span class="headline-accent">EXPO 2026</span>
+          TECH AURA 2026<br />
+          <span class="headline-accent">National Innovation Expo</span>
         </h1>
-        <p class="hero-tagline animate-fade-up delay-2"><em>Transforming Student Innovation Into A National Movement</em></p>
-        <p class="hero-location animate-fade-up delay-3">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          Chennai, Tamil Nadu
-        </p>
-        <p class="hero-subline animate-fade-up delay-3">Dates to be announced — registrations opening soon</p>
-        <div class="hero-buttons animate-fade-up delay-4">
-          <a href="#get-involved" class="btn btn-primary" id="hero-cta-partner">Partner With Us</a>
+        <p class="hero-tagline animate-fade-up delay-2">India's Emerging Student Innovation Ecosystem</p>
+        
+        <div class="hero-buttons animate-fade-up delay-3">
+          <a href="#sponsorship" class="btn btn-primary">Become Sponsor</a>
+          <a href="#stalls" class="btn btn-secondary">Book Startup Stall</a>
+          <a href="#downloads" class="btn btn-outline">Download Sponsorship Deck</a>
         </div>
+
+        <div class="hero-partner-strip animate-fade-up delay-4">
+          <span class="partner-label">Innovation Strategic Partner</span>
+          <img src="logo.png" alt="Dominova logo" class="partner-logo-hero" />
+        </div>
+
         <div class="hero-scroll-hint animate-fade-up delay-5" aria-hidden="true">
           <span>Scroll to explore</span>
           <div class="scroll-line"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== TRUST STRIP ===================== -->
-    <section class="trust-strip-section" aria-label="Accreditation & trust indicators">
-      <div class="container">
-        <div class="trust-strip-inner">
-          <span class="trust-pill">NAAC A++</span>
-          <span class="trust-pill">NIRF</span>
-          <span class="trust-pill">AICTE</span>
-          <span class="trust-pill">NBA</span>
-          <span class="trust-pill">QS STARS</span>
-          <span class="trust-pill">ABET</span>
         </div>
       </div>
     </section>
@@ -98,551 +98,956 @@
         <div class="stats-grid">
           <div class="stat-card scroll-reveal" id="stat-0">
             <div class="stat-icon" aria-hidden="true">
-              <svg class="stat-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"/><path d="M12 2a7 7 0 0 0-7 7c0 2.28 1.48 4.2 3.5 4.83l.5.17h6l.5-.17A4.99 4.99 0 0 0 17 9a7 7 0 0 0-7-7z"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
             <div class="stat-number" data-target="250" data-suffix="+">0</div>
-            <div class="stat-label">Competing Teams</div>
+            <div class="stat-label">Teams</div>
           </div>
           <div class="stat-card scroll-reveal" id="stat-1">
             <div class="stat-icon" aria-hidden="true">
-              <svg class="stat-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-            </div>
-            <div class="stat-number" data-target="1000" data-suffix="+">0</div>
-            <div class="stat-label">External Participants</div>
-          </div>
-          <div class="stat-card scroll-reveal" id="stat-2">
-            <div class="stat-icon" aria-hidden="true">
-              <svg class="stat-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
             </div>
             <div class="stat-number" data-target="15000" data-suffix="+">0</div>
             <div class="stat-label">Student Audience</div>
           </div>
+          <div class="stat-card scroll-reveal" id="stat-2">
+            <div class="stat-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="stat-number" data-target="1000" data-suffix="+">0</div>
+            <div class="stat-label">External Participants</div>
+          </div>
           <div class="stat-card scroll-reveal" id="stat-3">
             <div class="stat-icon" aria-hidden="true">
-              <svg class="stat-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
             </div>
             <div class="stat-number" data-target="28" data-suffix="">0</div>
             <div class="stat-label">States Represented</div>
           </div>
           <div class="stat-card scroll-reveal" id="stat-4">
             <div class="stat-icon" aria-hidden="true">
-              <svg class="stat-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.25-2.5 3.5-2.5 3.5s2.25-1 3.5-2.5L18 5l-3-3L4.5 16.5z"/><path d="M12 15l-3-3M9 15l-3-3"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
             </div>
-            <div class="stat-number" data-target="75" data-suffix="">0</div>
+            <div class="stat-number" data-target="75" data-suffix="+">0</div>
             <div class="stat-label">Startup Stalls</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== ABOUT THE EXPO ===================== -->
-    <section class="section about-section" id="about" aria-label="About the expo">
+    <!-- ===================== LATEST UPDATES ===================== -->
+    <section class="section updates-section" id="updates" aria-label="Latest Updates">
       <div class="container">
         <div class="section-header scroll-reveal">
-          <span class="section-tag gold-tag">About the Expo</span>
-          <h2 class="section-title">A National Platform For Future Pioneers</h2>
+          <span class="section-tag cyan-tag">Timeline Feed</span>
+          <h2 class="section-title">Latest Expo Updates</h2>
         </div>
-        <div class="objective-layout">
-          <div class="objective-text scroll-reveal">
-            <p class="objective-lead">This initiative transforms a traditional college project expo into a large-scale, innovation-focused ecosystem connecting students, startups, industry experts, and technology communities on one platform. The goal is to build a nationally recognized student innovation movement.</p>
+        <div class="updates-grid">
+          <div class="update-card scroll-reveal">
+            <div class="update-glow"></div>
+            <span class="update-badge gold-badge">REGISTRATION</span>
+            <h3>Startup Registrations Opening Soon</h3>
+            <p>Startup stall exhibition registration categories are launching details within the week.</p>
           </div>
-          <div class="objective-bullets scroll-reveal">
-            <ul class="objective-list" role="list">
-              <li class="objective-item">
-                <span class="obj-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                </span>
-                Create high-impact, national-level visibility for student innovation
-              </li>
-              <li class="objective-item">
-                <span class="obj-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                </span>
-                Bring 4 competitive teams from every state across India
-              </li>
-              <li class="objective-item">
-                <span class="obj-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                </span>
-                Connect forward-thinking students directly with active startup founders and MNC experts
-              </li>
-              <li class="objective-item">
-                <span class="obj-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                </span>
-                Build industry-focused project exposure and robust real-world networking opportunities
-              </li>
-              <li class="objective-item">
-                <span class="obj-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-                </span>
-                Develop one of India's most vibrant and visible student innovation ecosystems
-              </li>
-            </ul>
+          <div class="update-card scroll-reveal">
+            <div class="update-glow"></div>
+            <span class="update-badge cyan-badge">CREATIVE</span>
+            <h3>Poster Version 2 Releasing Soon</h3>
+            <p>Our official secondary layout showcase guidelines poster draft version 2 is releasing shortly.</p>
+          </div>
+          <div class="update-card scroll-reveal">
+            <div class="update-glow"></div>
+            <span class="update-badge gold-badge">GUESTS</span>
+            <h3>Speaker Announcements Coming Soon</h3>
+            <p>Highlighting national-level incubation heads and venture panels from high-profile VC groups.</p>
+          </div>
+          <div class="update-card scroll-reveal">
+            <div class="update-glow"></div>
+            <span class="update-badge cyan-badge">PARTNERS</span>
+            <h3>More Sponsorship Categories</h3>
+            <p>Specialized technological tools co-partner tiers to be announced shortly.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===================== WHY DIFFERENT ===================== -->
-    <section class="section different-section" id="different" aria-label="Why this event is different">
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section class="section about-section" id="about" aria-label="About Tech Aura">
       <div class="container">
         <div class="section-header scroll-reveal">
-          <span class="section-tag orange-tag">Our Edge</span>
-          <h2 class="section-title">Why This Event Is Different</h2>
-        </div>
-        <div class="different-grid">
-          <div class="diff-card diff-teal scroll-reveal" id="diff-0">
-            <div class="diff-icon-wrap" aria-hidden="true">
-              <svg class="diff-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </div>
-            <h3 class="diff-title">Pan-India Reach</h3>
-            <p class="diff-desc">4 teams from every state, competing through State, Zone, and National tiers — creating a truly representative national innovation championship.</p>
-          </div>
-          <div class="diff-card diff-orange scroll-reveal" id="diff-1">
-            <div class="diff-icon-wrap" aria-hidden="true">
-              <svg class="diff-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .5 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><line x1="9" y1="18" x2="15" y2="18"/><line x1="10" y1="22" x2="14" y2="22"/></svg>
-            </div>
-            <h3 class="diff-title">Active Startup Ecosystem</h3>
-            <p class="diff-desc">75 dedicated innovation stalls creating direct avenues for founder networking and MNC expert interactions in one vibrant exhibition floor.</p>
-          </div>
-          <div class="diff-card diff-navy scroll-reveal" id="diff-2">
-            <div class="diff-icon-wrap" aria-hidden="true">
-              <svg class="diff-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
-            </div>
-            <h3 class="diff-title">Live Media Coverage</h3>
-            <p class="diff-desc">High-production cinematic coverage, livestreaming, engaging social media campaigns, and creative reels — built for maximum digital reach.</p>
-          </div>
-          <div class="diff-card diff-orange scroll-reveal" id="diff-3">
-            <div class="diff-icon-wrap" aria-hidden="true">
-              <svg class="diff-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="2" x2="12" y2="22"/><line x1="5" y1="7" x2="19" y2="7"/><path d="M19 7c0 5-2 9-7 9s-7-4-7-9"/></svg>
-            </div>
-            <h3 class="diff-title">Industry-Oriented Evaluation</h3>
-            <p class="diff-desc">Judging strictly focused on practical, real-world problem-solving rather than theoretical concepts — rewarding what truly matters in industry.</p>
-          </div>
-          <div class="diff-card diff-teal scroll-reveal" id="diff-4">
-            <div class="diff-icon-wrap" aria-hidden="true">
-              <svg class="diff-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
-            </div>
-            <h3 class="diff-title">Legacy &amp; Community</h3>
-            <p class="diff-desc">An annual fixture supported by a vast Campus Ambassador network and cross-college collaboration channels designed to scale up year-on-year.</p>
-          </div>
-          <div class="diff-card diff-navy scroll-reveal" id="diff-5">
-            <div class="diff-icon-wrap" aria-hidden="true">
-              <svg class="diff-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M16 11h6"/><path d="M19 8v6"/></svg>
-            </div>
-            <h3 class="diff-title">Student Community</h3>
-            <p class="diff-desc">Campus Ambassador network and cross-college collaboration ecosystem — building lifelong connections across India's engineering talent landscape.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== STRUCTURE & CATEGORIES ===================== -->
-    <section class="section structure-section" id="structure" aria-label="Event structure">
-      <div class="container">
-        <div class="section-header scroll-reveal">
-          <span class="section-tag teal-tag">How It Works</span>
-          <h2 class="section-title">Event Structure</h2>
+          <span class="section-tag gold-tag">Our Vision</span>
+          <h2 class="section-title">Transforming Student Innovation Into A National Movement</h2>
+          <p class="section-subtitle">TECH AURA 2026 aims to bridge academia, startups, industries, incubators and innovators through a national innovation ecosystem.</p>
         </div>
 
-        <div class="timeline scroll-reveal" role="list" aria-label="Competition stages">
-          <div class="flow-step" role="listitem">
-            <div class="flow-step-num" aria-hidden="true">01</div>
-            <div class="flow-icon-wrap" aria-hidden="true">
-              <svg class="flow-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/></svg>
+        <!-- Event flow timeline -->
+        <div class="event-flow-block scroll-reveal">
+          <h3 class="flow-block-title">Competition Event Flow</h3>
+          <div class="timeline" role="list">
+            <div class="flow-step" role="listitem">
+              <div class="flow-step-num">01</div>
+              <h4 class="flow-title">Registration</h4>
+              <p class="flow-desc">Teams register online detailing conceptual proposals across designated project tracks.</p>
             </div>
-            <h3 class="flow-title">State-Level Registration</h3>
-            <p class="flow-desc">Teams register and compete at the state level, representing colleges across all 28 participating states.</p>
-          </div>
-          
-          <div class="timeline-connector" aria-hidden="true"><div class="timeline-progress"></div></div>
-          
-          <div class="flow-step" role="listitem">
-            <div class="flow-step-num" aria-hidden="true">02</div>
-            <div class="flow-icon-wrap" aria-hidden="true">
-              <svg class="flow-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div class="timeline-connector"><div class="timeline-progress"></div></div>
+            <div class="flow-step" role="listitem">
+              <div class="flow-step-num">02</div>
+              <h4 class="flow-title">State Level</h4>
+              <p class="flow-desc">Initial screening and state-level virtual evaluations across all Indian states.</p>
             </div>
-            <h3 class="flow-title">Zonal Competition</h3>
-            <p class="flow-desc">State winners advance to Zonal rounds — South, North, East & West — where the best innovators battle for the national stage.</p>
-          </div>
-          
-          <div class="timeline-connector" aria-hidden="true"><div class="timeline-progress"></div></div>
-          
-          <div class="flow-step" role="listitem">
-            <div class="flow-step-num" aria-hidden="true">03</div>
-            <div class="flow-icon-wrap" aria-hidden="true">
-              <svg class="flow-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"/><path d="M12 2a7 7 0 0 0-7 7c0 2.28 1.48 4.2 3.5 4.83l.5.17h6l.5-.17A4.99 4.99 0 0 0 17 9a7 7 0 0 0-7-7z"/></svg>
+            <div class="timeline-connector"><div class="timeline-progress"></div></div>
+            <div class="flow-step" role="listitem">
+              <div class="flow-step-num">03</div>
+              <h4 class="flow-title">Zonal Competition</h4>
+              <p class="flow-desc">Zonal finals featuring physical presentations across East, West, North, and South zones.</p>
             </div>
-            <h3 class="flow-title">National Showcase</h3>
-            <p class="flow-desc">Finalists take the main stage at Chennai — presenting to industry leaders, investors, and a 15,000+ student audience for national recognition.</p>
+            <div class="timeline-connector"><div class="timeline-progress"></div></div>
+            <div class="flow-step" role="listitem">
+              <div class="flow-step-num">04</div>
+              <h4 class="flow-title">National Finals</h4>
+              <p class="flow-desc">The grand faceoff of the remaining top teams at Chennai.</p>
+            </div>
+            <div class="timeline-connector"><div class="timeline-progress"></div></div>
+            <div class="flow-step" role="listitem">
+              <div class="flow-step-num">05</div>
+              <h4 class="flow-title">Awards</h4>
+              <p class="flow-desc">Distribution of prizes, strategic grants, and prototype scale incubators.</p>
+            </div>
+            <div class="timeline-connector"><div class="timeline-progress"></div></div>
+            <div class="flow-step" role="listitem">
+              <div class="flow-step-num">06</div>
+              <h4 class="flow-title">Networking</h4>
+              <p class="flow-desc">Direct interface with recruitment heads, VCs, startup mentors, and institutional partners.</p>
+            </div>
           </div>
         </div>
 
-        <div class="categories-block">
-          <h3 class="categories-title">Key Project Categories</h3>
+        <!-- Project Domains -->
+        <div class="domains-block scroll-reveal">
+          <h3 class="flow-block-title">Key Project Domains</h3>
           <div class="category-grid">
-            
             <div class="hexagon-tile scroll-reveal" role="listitem">
               <span class="hex-num">01</span>
               <div class="hexagon-inner">
-                <span class="cat-icon" aria-hidden="true">
-                  <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/><line x1="12" y1="8" x2="5" y2="16"/><line x1="12" y1="8" x2="19" y2="16"/><line x1="8" y1="19" x2="16" y2="19"/></svg>
-                </span>
-                <span class="cat-label">AI &amp; ML</span>
-                <span class="cat-desc">Smart systems and intelligent automation</span>
+                <span class="cat-label">Artificial Intelligence</span>
+                <span class="cat-desc">Generative AI systems, Neural algorithms and predictive modeling platforms.</span>
               </div>
             </div>
-            
             <div class="hexagon-tile scroll-reveal" role="listitem">
               <span class="hex-num">02</span>
               <div class="hexagon-inner">
-                <span class="cat-icon" aria-hidden="true">
-                  <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-                </span>
-                <span class="cat-label">Robotics</span>
-                <span class="cat-desc">Advanced automation and physical systems</span>
+                <span class="cat-label">Machine Learning</span>
+                <span class="cat-desc">Deep learning systems, computer vision systems, and analytical setups.</span>
               </div>
             </div>
-            
             <div class="hexagon-tile scroll-reveal" role="listitem">
               <span class="hex-num">03</span>
               <div class="hexagon-inner">
-                <span class="cat-icon" aria-hidden="true">
-                  <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
-                </span>
-                <span class="cat-label">IoT Systems</span>
-                <span class="cat-desc">Connected sensors and smart infrastructure</span>
+                <span class="cat-label">Robotics</span>
+                <span class="cat-desc">Autonomous drones, industrial assembly arms, and robotic processing units.</span>
               </div>
             </div>
-            
             <div class="hexagon-tile scroll-reveal" role="listitem">
               <span class="hex-num">04</span>
               <div class="hexagon-inner">
-                <span class="cat-icon" aria-hidden="true">
-                  <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-                </span>
-                <span class="cat-label">Software</span>
-                <span class="cat-desc">Web technologies and scalable applications</span>
+                <span class="cat-label">Automation</span>
+                <span class="cat-desc">Smart grid structures and intelligent workflows for automated operations.</span>
               </div>
             </div>
-            
             <div class="hexagon-tile scroll-reveal" role="listitem">
               <span class="hex-num">05</span>
               <div class="hexagon-inner">
-                <span class="cat-icon" aria-hidden="true">
-                  <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 0 9.5a7 7 0 0 1-8 8.5z"/><path d="M19 2L9.8 11.2"/></svg>
-                </span>
-                <span class="cat-label">Green Tech</span>
-                <span class="cat-desc">Sustainable energy and green solutions</span>
+                <span class="cat-label">Cybersecurity</span>
+                <span class="cat-desc">Cryptographic tools, zero trust protocols, and network defensive shields.</span>
               </div>
             </div>
-            
             <div class="hexagon-tile scroll-reveal" role="listitem">
               <span class="hex-num">06</span>
               <div class="hexagon-inner">
-                <span class="cat-icon" aria-hidden="true">
-                  <svg class="cat-svg" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                </span>
+                <span class="cat-label">IoT</span>
+                <span class="cat-desc">Embedded sensor arrays, telemetry modules, and micro-controller meshes.</span>
+              </div>
+            </div>
+            <div class="hexagon-tile scroll-reveal" role="listitem">
+              <span class="hex-num">07</span>
+              <div class="hexagon-inner">
                 <span class="cat-label">Healthcare</span>
-                <span class="cat-desc">Smart medical and healthcare innovations</span>
+                <span class="cat-desc">Diagnostics systems, remote monitoring networks, and medical electronics.</span>
               </div>
             </div>
-            
+            <div class="hexagon-tile scroll-reveal" role="listitem">
+              <span class="hex-num">08</span>
+              <div class="hexagon-inner">
+                <span class="cat-label">Agritech</span>
+                <span class="cat-desc">Precision farming models, automated harvesting setups, and soil analyzers.</span>
+              </div>
+            </div>
+            <div class="hexagon-tile scroll-reveal" role="listitem">
+              <span class="hex-num">09</span>
+              <div class="hexagon-inner">
+                <span class="cat-label">FinTech</span>
+                <span class="cat-desc">DeFi platforms, secure ledger databases, and automated payment gateways.</span>
+              </div>
+            </div>
+            <div class="hexagon-tile scroll-reveal" role="listitem">
+              <span class="hex-num">10</span>
+              <div class="hexagon-inner">
+                <span class="cat-label">Green Tech</span>
+                <span class="cat-desc">Renewable energy tracking, battery cells, and environment auditing tools.</span>
+              </div>
+            </div>
+            <div class="hexagon-tile scroll-reveal" role="listitem">
+              <span class="hex-num">11</span>
+              <div class="hexagon-inner">
+                <span class="cat-label">Software</span>
+                <span class="cat-desc">Scalable database frameworks, SaaS systems, and microservice clouds.</span>
+              </div>
+            </div>
           </div>
         </div>
+
+        <!-- Audience Profile -->
+        <div class="audience-block scroll-reveal">
+          <h3 class="flow-block-title">Audience Profile</h3>
+          <div class="audience-grid">
+            <div class="audience-card">Engineering Students</div>
+            <div class="audience-card">Recruiters</div>
+            <div class="audience-card">Startup Founders</div>
+            <div class="audience-card">Faculty Members</div>
+            <div class="audience-card">Researchers</div>
+            <div class="audience-card">Government Organizations</div>
+            <div class="audience-card">Investors</div>
+            <div class="audience-card">Incubators</div>
+          </div>
+        </div>
+
+        <!-- Organizer Credentials -->
+        <div class="organizers-strip scroll-reveal">
+          <div class="organizer-logo-wrap">
+            <span class="org-label">Organized By</span>
+            <div class="crest-placeholder">Sathyabama Institute of Science and Technology</div>
+          </div>
+          <div class="organizer-logo-wrap">
+            <span class="org-label">Innovation Strategic Partner</span>
+            <img src="logo.png" alt="Dominova logo" class="partner-logo-inline" />
+          </div>
+        </div>
+
+        <!-- Partnership Journey -->
+        <div class="flow-block scroll-reveal">
+          <h3 class="flow-block-title">Partnership Journey</h3>
+          <div class="journey-flow">
+            <div class="journey-step">
+              <div class="journey-num">1</div>
+              <span>Choose Partnership</span>
+            </div>
+            <div class="journey-arrow">→</div>
+            <div class="journey-step">
+              <div class="journey-num">2</div>
+              <span>Discussion Meeting</span>
+            </div>
+            <div class="journey-arrow">→</div>
+            <div class="journey-step">
+              <div class="journey-num">3</div>
+              <span>Agreement</span>
+            </div>
+            <div class="journey-arrow">→</div>
+            <div class="journey-step">
+              <div class="journey-num">4</div>
+              <span>Brand Allocation</span>
+            </div>
+            <div class="journey-arrow">→</div>
+            <div class="journey-step">
+              <div class="journey-num">5</div>
+              <span>Execution</span>
+            </div>
+            <div class="journey-arrow">→</div>
+            <div class="journey-step">
+              <div class="journey-num">6</div>
+              <span>Post Event Report</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <!-- ===================== GET INVOLVED (PARTNER WITH US) ===================== -->
-    <section class="section get-involved-section" id="get-involved" aria-label="Partner with us">
+    <!-- ===================== SPONSORSHIP SECTION ===================== -->
+    <section class="section sponsorship-section" id="sponsorship" aria-label="Sponsorship Options">
       <div class="container">
         <div class="section-header scroll-reveal">
-          <span class="section-tag gold-tag">PARTNER</span>
-          <h2 class="section-title">Partner with NIE 2026</h2>
+          <span class="section-tag cyan-tag">Acquisition Tiers</span>
+          <h2 class="section-title">Why Sponsor TECH AURA 2026</h2>
+          <p class="section-subtitle">Obtain unparalleled exposure across high-growth metrics and key tech decision makers.</p>
         </div>
 
-        <div class="get-involved-layout">
-
-          <!-- Track B: For Companies (Sponsorship Tiers) -->
-          <div class="track-block scroll-reveal">
-            <h3 class="track-title-heading">Track B — For Companies (Sponsorship Tiers)</h3>
-            <div class="sponsor-grid">
-              
-              <div class="sponsor-card silver-card flex-card">
-                <div class="sponsor-tier-badge">Silver Partner</div>
-                <div class="sponsor-icon-large" aria-hidden="true">
-                  <svg class="tier-svg" viewBox="0 0 24 24" fill="none" stroke="#9C6B1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                </div>
-                <h4 class="sponsor-tier-name">Silver</h4>
-                <p class="sponsor-tier-sub">Foundation Tier</p>
-                <ul class="sponsor-perks" role="list">
-                  <li>Comprehensive logo placement across official event posters</li>
-                  <li>Dedicated social media visibility campaigns</li>
-                  <li>Formal on-stage recognition during primary ceremonies</li>
-                </ul>
-              </div>
-
-              <div class="sponsor-card gold-card flex-card">
-                <div class="sponsor-tier-badge">Gold Partner</div>
-                <div class="sponsor-icon-large" aria-hidden="true">
-                  <svg class="tier-svg" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.45 1-1 1H4v2h16v-2h-5c-.55 0-1-.45-1-1v-2.34"/><path d="M12 2a7 7 0 0 0-7 7c0 2.28 1.48 4.2 3.5 4.83l.5.17h6l.5-.17A4.99 4.99 0 0 0 17 9a7 7 0 0 0-7-7z"/></svg>
-                </div>
-                <h4 class="sponsor-tier-name">Gold</h4>
-                <p class="sponsor-tier-sub">Growth Tier</p>
-                <ul class="sponsor-perks" role="list">
-                  <li>All Silver tier benefits included</li>
-                  <li>Promotional video ad slots broadcast during the event</li>
-                  <li>Access to VIP lounges and talent networking pipelines</li>
-                </ul>
-              </div>
-
-              <div class="sponsor-card platinum-card flagship-glow flex-card">
-                <div class="flagship-badge" aria-label="Flagship tier">Most Popular</div>
-                <div class="sponsor-tier-badge">Platinum Partner</div>
-                <div class="sponsor-icon-large" aria-hidden="true">
-                  <svg class="tier-svg tier-svg-platinum" viewBox="0 0 24 24" fill="none" stroke="#E8BC50" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 12L2 9z"/></svg>
-                </div>
-                <h4 class="sponsor-tier-name">Platinum</h4>
-                <p class="sponsor-tier-sub">Premium Flagship Tier</p>
-                <ul class="sponsor-perks" role="list">
-                  <li>Premium venue branding throughout all Tech Aura layouts</li>
-                  <li>Multiple high-frequency digital ad rotations</li>
-                  <li>Corporate jersey branding for visibility at scale</li>
-                  <li>Direct founder-level recruitment access</li>
-                </ul>
-              </div>
-
-            </div>
+        <div class="benefits-grid scroll-reveal">
+          <div class="benefit-card">
+            <h4>Talent Acquisition</h4>
+            <p>Acquire top prospective innovators before competitors.</p>
           </div>
-
-          <!-- Track C: Startup Exhibition Stalls -->
-          <div class="track-block scroll-reveal">
-            <h3 class="track-title-heading">Track C — Startup Exhibition Stalls</h3>
-            <div class="stalls-grid">
-              
-              <div class="stall-card flex-card">
-                <div class="stall-header stall-header-standard">
-                  <span class="stall-icon" aria-hidden="true">
-                    <svg class="stall-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-                  </span>
-                  <h4 class="stall-name">Standard Placement</h4>
-                </div>
-                <p class="stall-desc">Essential venue placement, direct student interaction access, and robust student-facing brand visibility across the full event footprint.</p>
-              </div>
-
-              <div class="stall-card stall-featured flex-card">
-                <div class="stall-popular-badge">Most Popular</div>
-                <div class="stall-header stall-header-growth">
-                  <span class="stall-icon" aria-hidden="true">
-                    <svg class="stall-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-                  </span>
-                  <h4 class="stall-name">Growth Placement</h4>
-                </div>
-                <p class="stall-desc">Strategically optimized venue placement, heightened digital exposure, and broader audience engagement channels reaching across all event zones.</p>
-              </div>
-
-              <div class="stall-card flex-card">
-                <div class="stall-header stall-header-premium">
-                  <span class="stall-icon" aria-hidden="true">
-                    <svg class="stall-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#E8BC50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                  </span>
-                  <h4 class="stall-name">Premium Placement</h4>
-                </div>
-                <p class="stall-desc">Peak brand visibility in high-traffic primary exhibition paths, priority venue layouts, and maximized promotional footprint for maximum impact.</p>
-              </div>
-
-            </div>
+          <div class="benefit-card">
+            <h4>Employer Branding</h4>
+            <p>Establish your organization as a modern tech leader.</p>
           </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== WHY PARTNER WITH US (4 COLUMNS) ===================== -->
-    <section class="section value-section" id="partner-advantages" aria-label="Why partner with us">
-      <div class="container">
-        <div class="section-header scroll-reveal">
-          <span class="section-tag purple-tag">Mutual Benefits</span>
-          <h2 class="section-title">Why Partner With Us</h2>
-          <p class="section-subtitle">A rising tide lifts all boats. Here's exactly what every stakeholder gains from being part of the National Innovation Expo 2026.</p>
-        </div>
-        <div class="value-grid">
-
-          <div class="value-col value-teal scroll-reveal" id="val-students-new">
-            <div class="value-icon-wrap" aria-hidden="true">
-              <svg class="val-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
-            </div>
-            <h3 class="value-col-title">For Students</h3>
-            <ul class="value-list" role="list">
-              <li>National-level project visibility</li>
-              <li>Direct networking with founders/MNC professionals</li>
-              <li>Real-world experience</li>
-              <li>Improved presentation, teamwork, and leadership</li>
-              <li>Startup ecosystem exposure</li>
-              <li>Recruiter and mentor access</li>
-            </ul>
+          <div class="benefit-card">
+            <h4>Lead Generation</h4>
+            <p>Expose tools to institutional heads and decision makers.</p>
           </div>
-
-          <div class="value-col value-navy scroll-reveal" id="val-institution-new">
-            <div class="value-icon-wrap" aria-hidden="true">
-              <svg class="val-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16M10 14h4M4 18h16M12 2L2 7h20L12 2zM4 10h1M8 10h1M12 10h1M16 10h1M20 10h1"/></svg>
-            </div>
-            <h3 class="value-col-title">For the Institution</h3>
-            <ul class="value-list" role="list">
-              <li>Positions Sathyabama as innovation-driven nationally</li>
-              <li>Strengthens industry-academia partnerships</li>
-              <li>Generates media visibility</li>
-              <li>Builds entrepreneurship culture</li>
-              <li>Attracts top students and faculty</li>
-              <li>Creates annual legacy</li>
-            </ul>
+          <div class="benefit-card">
+            <h4>Startup Discovery</h4>
+            <p>Direct incubation scouts pipeline for startup teams.</p>
           </div>
-
-          <div class="value-col value-orange scroll-reveal" id="val-sponsors-new">
-            <div class="value-icon-wrap" aria-hidden="true">
-              <svg class="val-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><line x1="9" y1="22" x2="9" y2="16"/><path d="M9 16h6v6"/><line x1="9" y1="6" x2="9" y2="6.01"/><line x1="15" y1="6" x2="15" y2="6.01"/><line x1="9" y1="11" x2="9" y2="11.01"/><line x1="15" y1="11" x2="15" y2="11.01"/></svg>
-            </div>
-            <h3 class="value-col-title">For Sponsors &amp; Companies</h3>
-            <ul class="value-list" role="list">
-              <li>Direct access to 15,000+ students</li>
-              <li>Brand visibility in media, reels, and live streams</li>
-              <li>Product demos and lead generation</li>
-              <li>Networking with innovators and talent</li>
-              <li>Recruitment pipeline</li>
-              <li>MOU and long-term partnership potential</li>
-            </ul>
+          <div class="benefit-card">
+            <h4>Media Exposure</h4>
+            <p>Wide coverage on post-event reels, streams, and brochures.</p>
           </div>
-
-          <div class="value-col value-purple scroll-reveal" id="val-ecosystem-new">
-            <div class="value-icon-wrap" aria-hidden="true">
-              <svg class="val-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-            </div>
-            <h3 class="value-col-title">For the Innovation Ecosystem</h3>
-            <ul class="value-list" role="list">
-              <li>Bridges student ideas and industry needs</li>
-              <li>Unified Pan-India platform</li>
-              <li>Cross-state collaboration</li>
-              <li>Amplifies startup visibility</li>
-              <li>Grows entrepreneur community</li>
-              <li>Contributes to India's innovation goals</li>
-            </ul>
+          <div class="benefit-card">
+            <h4>Product Demonstrations</h4>
+            <p>Demonstrate products on stage to 15,000+ visitors.</p>
           </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== EXPECTED IMPACT SUMMARY ===================== -->
-    <section class="section impact-section" id="impact" aria-label="Expected impact">
-      <div class="container">
-        <div class="section-header scroll-reveal">
-          <span class="section-tag orange-tag">The Outcomes</span>
-          <h2 class="section-title">Expected Impact Summary</h2>
-          <p class="section-subtitle">Three dimensions of lasting impact — on students, on the institution, and on India's broader innovation landscape.</p>
-        </div>
-        <div class="impact-grid">
-
-          <div class="impact-card scroll-reveal" id="impact-student">
-            <div class="impact-card-icon" aria-hidden="true">
-              <svg class="impact-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-            </div>
-            <h3 class="impact-card-title">Student Impact</h3>
-            <p class="impact-card-desc">Real industry exposure, structured innovation recognition, and career-shaping professional networking pipelines for 15,000+ students.</p>
-            <div class="impact-stat-pill">15,000+ Students Impacted</div>
+          <div class="benefit-card">
+            <h4>Academic Partnerships</h4>
+            <p>Build collaborative R&D setups with research labs.</p>
           </div>
-
-          <div class="impact-card scroll-reveal" id="impact-institution">
-            <div class="impact-card-icon" aria-hidden="true">
-              <svg class="impact-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16M10 14h4M4 18h16M12 2L2 7h20L12 2zM4 10h1M8 10h1M12 10h1M16 10h1M20 10h1"/></svg>
-            </div>
-            <h3 class="impact-card-title">Institutional Impact</h3>
-            <p class="impact-card-desc">Secures national academic-industry visibility and cements an innovation-driven leadership position for Sathyabama Institute of Science and Technology.</p>
-            <div class="impact-stat-pill">National Recognition</div>
+          <div class="benefit-card">
+            <h4>Research Collaborations</h4>
+            <p>Gain insights from state-level student prototypes.</p>
           </div>
-
-          <div class="impact-card scroll-reveal" id="impact-ecosystem">
-            <div class="impact-card-icon" aria-hidden="true">
-              <svg class="impact-svg-icon" viewBox="0 0 24 24" fill="none" stroke="#D4A437" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 0 9.5a7 7 0 0 1-8 8.5z"/><path d="M19 2L9.8 11.2"/></svg>
-            </div>
-            <h3 class="impact-card-title">Ecosystem Impact</h3>
-            <p class="impact-card-desc">Establishes a highly visible, self-sustaining annual innovation ecosystem connecting and empowering India's best young minds.</p>
-            <div class="impact-stat-pill">Pan-India Innovation Hub</div>
+          <div class="benefit-card">
+            <h4>Innovation Scouting</h4>
+            <p>Locate unique tech solutions directly from engineers.</p>
           </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== ORGANIZED BY BAND ===================== -->
-    <section class="organized-by-section" aria-label="Organized by credibility indicators">
-      <div class="container">
-        <h3 class="organizer-header">Organized By</h3>
-        <div class="organizer-row">
-          <div class="organizer-logo-block">
-            <img src="logo.png" alt="Dominova" class="organizer-logo" />
-            <span class="organizer-logo-label">NIE<span>2026</span></span>
-          </div>
-          <div class="organizer-sep"></div>
-          <div class="organizer-logo-block logo-sathyabama-crest">
-            <span class="crest-text-badge">Sathyabama Institute of Science and Technology</span>
+          <div class="benefit-card">
+            <h4>MOU Opportunities</h4>
+            <p>Incorporate official MOUs with incubator channels.</p>
           </div>
         </div>
-        
-        <div class="accreditation-trust-strip-repeat">
-          <span class="trust-badge">NAAC A++ Accredited</span>
-          <span class="trust-badge">NIRF Ranked</span>
-          <span class="trust-badge">AICTE Approved</span>
-          <span class="trust-badge">NBA Accredited</span>
-          <span class="trust-badge">QS STARS Ranked</span>
-          <span class="trust-badge">ABET Accredited</span>
-        </div>
-      </div>
-    </section>
 
-    <!-- ===================== FOOTER / CTA ===================== -->
-    <section class="footer-cta" id="contact" aria-label="Contact and call to action">
-      <div class="footer-orb footer-orb-1" aria-hidden="true"></div>
-      <div class="footer-orb footer-orb-2" aria-hidden="true"></div>
-      <div class="footer-cta-center scroll-reveal">
-        <h2 class="footer-headline">Be part of India's next innovation movement — <span class="footer-accent">partner with NIE 2026.</span></h2>
-        <p class="footer-sub">Reach out to the Dominova team to discuss partnership opportunities, sponsor packages, or stalls for the National Innovation Expo 2026.</p>
-        
-        <div class="footer-actions">
-          <a href="mailto:contact@dominova.in?subject=NIE%202026%20Partnership%20Inquiry" class="btn btn-primary" id="footer-cta-partner">Partner With Us</a>
-        </div>
-
-        <div class="footer-brand-row">
-          <div class="footer-brand-block">
-            <img src="logo.png" alt="Dominova" class="footer-logo" />
-            <div class="footer-brand-text-col">
-              <div class="footer-brand-logo-text" aria-hidden="true">NIE<span>2026</span></div>
-              <p class="footer-brand-name">Dominova × Sathyabama Institute of Science and Technology</p>
-            </div>
+        <!-- Matrix Matrix -->
+        <div class="matrix-block scroll-reveal">
+          <h3 class="flow-block-title">Sponsorship Benefits Matrix</h3>
+          <div class="matrix-wrapper">
+            <table class="matrix-table">
+              <thead>
+                <tr>
+                  <th>Benefits Breakdown</th>
+                  <th>Title Partner</th>
+                  <th>Co-Title</th>
+                  <th>Platinum</th>
+                  <th>Technology</th>
+                  <th>Hiring Partner</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Website Logo</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                </tr>
+                <tr>
+                  <td>Main Stage Branding</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="cross">✘</td>
+                </tr>
+                <tr>
+                  <td>Booth Space</td>
+                  <td>Premium Stall</td>
+                  <td>Premium Stall</td>
+                  <td>Standard Stall</td>
+                  <td>Standard Stall</td>
+                  <td class="cross">✘</td>
+                </tr>
+                <tr>
+                  <td>Social Media Promotions</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                </tr>
+                <tr>
+                  <td>Speaking Slot</td>
+                  <td>15 Mins Keynote</td>
+                  <td>10 Mins Keynote</td>
+                  <td>5 Mins Keynote</td>
+                  <td class="cross">✘</td>
+                  <td class="cross">✘</td>
+                </tr>
+                <tr>
+                  <td>VIP Networking</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="cross">✘</td>
+                </tr>
+                <tr>
+                  <td>Press Coverage</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="cross">✘</td>
+                  <td class="cross">✘</td>
+                </tr>
+                <tr>
+                  <td>Video Advertisements</td>
+                  <td>3 Min Slot</td>
+                  <td>2 Min Slot</td>
+                  <td>1 Min Slot</td>
+                  <td class="cross">✘</td>
+                  <td class="cross">✘</td>
+                </tr>
+                <tr>
+                  <td>Student Access</td>
+                  <td>Full Directory</td>
+                  <td>Full Directory</td>
+                  <td>Filtered Access</td>
+                  <td>Filtered Access</td>
+                  <td>Filtered Access</td>
+                </tr>
+                <tr>
+                  <td>Recruitment Support</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                  <td class="tick">✔</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+        </div>
+
+        <!-- Tiers Grid -->
+        <h3 class="flow-block-title" style="margin-top: 60px;">Sponsorship Tiers & Slot Availability</h3>
+        <div class="tiers-grid scroll-reveal">
           
-          <div class="footer-socials" role="list" aria-label="Social media links">
-            <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn" role="listitem">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-              LinkedIn
-            </a>
-            <a href="#" class="social-link" id="social-instagram" aria-label="Instagram" role="listitem">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-              Instagram
-            </a>
+          <div class="tier-card gold-border">
+            <div class="tier-badge gold-badge">Flagship Tier</div>
+            <h4>Title Sponsor</h4>
+            <div class="tier-price">₹2,00,000</div>
+            <p class="tier-slots-left">1 Slot Only</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/1 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Title%20Inquiry" class="btn btn-primary btn-block">Become Sponsor</a>
           </div>
+
+          <div class="tier-card">
+            <h4>Co-Title Sponsor</h4>
+            <div class="tier-price">₹1,50,000</div>
+            <p class="tier-slots-left">2 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/2 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Co-Title%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card gold-border">
+            <div class="tier-badge cyan-badge">High Demand</div>
+            <h4>Powered By Sponsor</h4>
+            <div class="tier-price">₹1,00,000</div>
+            <p class="tier-slots-left">2 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 50%;"></div>
+            </div>
+            <span class="slot-progress-label">1/2 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Powered-By%20Inquiry" class="btn btn-primary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Platinum Sponsor</h4>
+            <div class="tier-price">₹50,000</div>
+            <p class="tier-slots-left">3 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/3 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Platinum%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card gold-border">
+            <h4>Innovation Partner</h4>
+            <div class="tier-price">₹75,000</div>
+            <p class="tier-slots-left">2 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 50%;"></div>
+            </div>
+            <span class="slot-progress-label">1/2 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Innovation-Partner%20Inquiry" class="btn btn-primary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Startup Partner</h4>
+            <div class="tier-price">₹75,000</div>
+            <p class="tier-slots-left">2 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/2 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Startup-Partner%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Technology Partner</h4>
+            <div class="tier-price">₹50,000</div>
+            <p class="tier-slots-left">2 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/2 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Technology-Partner%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Incubation Partner</h4>
+            <div class="tier-price">₹50,000</div>
+            <p class="tier-slots-left">2 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/2 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Incubation-Partner%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Internship Partner</h4>
+            <div class="tier-price">₹30,000</div>
+            <p class="tier-slots-left">5 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/5 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Internship-Partner%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card gold-border">
+            <h4>Hiring Partner</h4>
+            <div class="tier-price">₹30,000</div>
+            <p class="tier-slots-left">5 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 40%;"></div>
+            </div>
+            <span class="slot-progress-label">2/5 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Hiring-Partner%20Inquiry" class="btn btn-primary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Knowledge Partner</h4>
+            <div class="tier-price">₹25,000</div>
+            <p class="tier-slots-left">5 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/5 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Knowledge-Partner%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Media Partner</h4>
+            <div class="tier-price">₹20,000</div>
+            <p class="tier-slots-left">3 Slots Available</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 0%;"></div>
+            </div>
+            <span class="slot-progress-label">0/3 Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Media-Partner%20Inquiry" class="btn btn-secondary btn-block">Become Sponsor</a>
+          </div>
+
+          <div class="tier-card">
+            <h4>Community Partner</h4>
+            <div class="tier-price">Free</div>
+            <p class="tier-slots-left">Unlimited Tiers</p>
+            <div class="slot-progress-wrap">
+              <div class="slot-progress" style="width: 100%;"></div>
+            </div>
+            <span class="slot-progress-label">Unlimited Slots Booked</span>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Sponsorship%20Community-Partner%20Inquiry" class="btn btn-secondary btn-block">Become Partner</a>
+          </div>
+
         </div>
       </div>
+    </section>
 
-      <div class="footer-bottom">
-        <div class="container footer-bottom-inner">
-          <p class="footer-copy">© 2026 Dominova × Sathyabama Institute of Science and Technology. All rights reserved.</p>
-          <p class="footer-tagline-bottom">Transforming Student Innovation Into A National Movement</p>
+    <!-- ===================== STARTUP STALLS SECTION ===================== -->
+    <section class="section stalls-section" id="stalls" aria-label="Startup Stalls Options">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag gold-tag">Exhibition Hall</span>
+          <h2 class="section-title">Startup Exhibition Opportunities</h2>
+          <p class="section-subtitle">Display prototypes, software systems, and green solutions directly on the expo floor.</p>
+        </div>
+
+        <!-- Custom live reservation count card -->
+        <div class="live-reservation-card scroll-reveal">
+          <div class="live-badge-glow"></div>
+          <h4>Live Stall Availability</h4>
+          <div class="live-progress-bar-wrap">
+            <div class="live-progress-fill" style="width: 24%;"></div>
+          </div>
+          <span class="live-progress-label">18/75 Stalls Reserved — Reserve Yours Today</span>
+        </div>
+
+        <div class="stalls-grid scroll-reveal">
+          
+          <div class="stall-card">
+            <h4>STANDARD</h4>
+            <div class="stall-price">₹16,400</div>
+            <ul class="stall-features" role="list">
+              <li>Standard Placement</li>
+              <li>Student Interaction Access</li>
+              <li>Startup Visibility</li>
+              <li>Event Listing</li>
+            </ul>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Standard%20Stall%20Reservation" class="btn btn-secondary btn-block">Book Stall</a>
+          </div>
+
+          <div class="stall-card featured-stall">
+            <div class="stall-badge">Most Popular</div>
+            <h4>GROWTH</h4>
+            <div class="stall-price">₹24,800</div>
+            <ul class="stall-features" role="list">
+              <li>Prime Placement</li>
+              <li>Enhanced Branding</li>
+              <li>Higher Engagement</li>
+              <li>Social Media Feature</li>
+            </ul>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Growth%20Stall%20Reservation" class="btn btn-primary btn-block">Book Stall</a>
+          </div>
+
+          <div class="stall-card">
+            <h4>PREMIUM</h4>
+            <div class="stall-price">₹38,600</div>
+            <ul class="stall-features" role="list">
+              <li>Best Hall Placement</li>
+              <li>Dedicated Demo Zone</li>
+              <li>Founder Networking</li>
+              <li>Priority Media Coverage</li>
+              <li>Post Event Promotion</li>
+            </ul>
+            <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Premium%20Stall%20Reservation" class="btn btn-secondary btn-block">Book Stall</a>
+          </div>
+
+        </div>
+
+        <h3 class="flow-block-title" style="margin-top: 60px;">Exhibition Stall Benefits</h3>
+        <div class="benefits-grid scroll-reveal">
+          <div class="benefit-card">
+            <h4>Launch Products</h4>
+            <p>Introduce software apps and hardware devices to 15,000+ potential users.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Generate Leads</h4>
+            <p>Collect analytical profiles and customer contacts from visitors.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Investor Meetings</h4>
+            <p>Pitch modules to registered VC networks and seed funds.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Customer Feedback</h4>
+            <p>Acquire UX criticism and suggestions on real beta products.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Startup Networking</h4>
+            <p>Connect with other state-level startup founders.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Brand Awareness</h4>
+            <p>Showcase branding banners directly in primary hallways.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Recruitment Opportunities</h4>
+            <p>Recruit young interns and co-founders directly on the spot.</p>
+          </div>
+          <div class="benefit-card">
+            <h4>Live Demonstrations</h4>
+            <p>Expose functioning models on the booth exhibition tables.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== DOWNLOADS PAGE ===================== -->
+    <section class="section downloads-section" id="downloads" aria-label="Downloads Resource Center">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag cyan-tag">Asset Library</span>
+          <h2 class="section-title">Downloadable Resource Center</h2>
+          <p class="section-subtitle">Acquire print assets, event profiles, and rulebooks directly from the server.</p>
+        </div>
+
+        <div class="downloads-grid scroll-reveal">
+          
+          <div class="download-card">
+            <span class="download-format">PDF</span>
+            <h3>SPONSORSHIP DECK</h3>
+            <span class="download-status text-green">AVAILABLE</span>
+            <a href="SPONSORSHIP_DECK_TECH_AURA_2026.pdf" download class="btn btn-primary btn-block">Download Sponsorship Deck</a>
+          </div>
+
+          <div class="download-card">
+            <span class="download-format">PDF</span>
+            <h3>EVENT POSTER</h3>
+            <span class="download-status text-green">AVAILABLE</span>
+            <a href="EVENT_POSTER_TECH_AURA_2026.pdf" download class="btn btn-primary btn-block">Download Event Poster</a>
+          </div>
+
+          <div class="download-card disabled-card">
+            <span class="download-format">PDF</span>
+            <h3>BROCHURE</h3>
+            <span class="download-status text-muted">COMING SOON</span>
+            <button class="btn btn-outline btn-block" disabled>Coming Soon</button>
+          </div>
+
+          <div class="download-card disabled-card">
+            <span class="download-format">ZIP</span>
+            <h3>MEDIA KIT</h3>
+            <span class="download-status text-muted">COMING SOON</span>
+            <button class="btn btn-outline btn-block" disabled>Coming Soon</button>
+          </div>
+
+          <div class="download-card disabled-card">
+            <span class="download-format">PDF</span>
+            <h3>EVENT RULEBOOK</h3>
+            <span class="download-status text-muted">COMING SOON</span>
+            <button class="btn btn-outline btn-block" disabled>Coming Soon</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ SECTION ===================== -->
+    <section class="section faq-section" id="faq" aria-label="Frequently Asked Questions">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag gold-tag">Questions</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-accordion scroll-reveal" role="list">
+          
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can companies recruit students?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Registered partners and sponsors have direct access to our student profile directories, database filters, and interview cabins during the expo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can sponsors conduct workshops?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Title and Co-Title sponsors can run dedicated technology workshops, developer feedback circles, and hack-challenges during the event days.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can startups showcase products?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. That is the core purpose of our 75 Startup Exhibition Stalls. They are built for showcasing products, getting user telemetry, and pitching prototype capabilities.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can incubators participate?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Incubators can register as Incubation Partners. They gain direct scouting lists of zonal-level engineering champions to evaluate for funding pipelines.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can investors interact with startups?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Registered investors are invited to our VIP Networking Lounges and Pitch Rounds where selected finalists showcase prototypes.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can organizations reserve multiple stalls?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Depending on remaining availability, brands can book adjacent spaces for broader showcase footprints. Contact our strategic partner team.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can sponsorship benefits be customized?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. While we outline structural matrices, we are flexible to customize speaking slots, R&D sponsorships, and community banners to fit your strategy.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can international companies participate?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Virtual review setups and remote pitch cabins are available for partners participating globally outside Chennai.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can organizations sign MOUs?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Dominova and Sathyabama support signing formal bilateral MOUs for talent exchanges, R&D incubator pipelines, and student resource access.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>How many visitors are expected?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>We anticipate a highly engaged student audience of over 15,000+ visitors, alongside 1,000+ external participants and startup scouts.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can companies conduct product launches?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Main stage speaking slots provide high-quality cinematic video coverage options for product rollouts and software announcements.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Can sponsors display banners?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Yes. Indoor banners, hallway placements, and digital slideshow boards will feature brand logos based on the sponsorship tier.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Will accommodation be available?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Registered VIP sponsors, judges, and stall founders will receive priority accommodation booking options at the campus guest house networks.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section class="section contact-section" id="contact" aria-label="Contact and Communications">
+      <div class="container">
+        <div class="section-header scroll-reveal">
+          <span class="section-tag cyan-tag">Get In Touch</span>
+          <h2 class="section-title">Schedule A Discussion Meeting</h2>
+        </div>
+
+        <div class="contact-grid scroll-reveal">
+          <div class="contact-details-card">
+            <span class="contact-eyebrow">DOMINOVA FOUNDER</span>
+            <h3>Deepak B</h3>
+            <p class="contact-role">Innovation Strategic Partner — TECH AURA 2026</p>
+            
+            <div class="contact-buttons">
+              <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Partnership%20Meeting" class="btn btn-primary">Become Sponsor</a>
+              <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Stall%20Booking" class="btn btn-secondary">Reserve Stall</a>
+              <a href="mailto:contact@dominova.in?subject=Tech%20Aura%202026%20Meeting%20Schedule" class="btn btn-outline">Schedule Meeting</a>
+            </div>
+
+            <div class="contact-links">
+              <a href="mailto:contact@dominova.in" class="contact-link-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Email Team
+              </a>
+              <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="contact-link-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                WhatsApp Team
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
   </main>
+
+  <!-- ===================== FLOATING CTA ===================== -->
+  <div class="floating-cta" aria-label="Quick Action Toggles">
+    <a href="#sponsorship" class="floating-cta-btn floating-gold">Reserve Sponsorship</a>
+    <a href="#stalls" class="floating-cta-btn floating-cyan">Book Stall</a>
+    <a href="#contact" class="floating-cta-btn floating-outline">Schedule Meeting</a>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand-col">
+        <div class="footer-logo-row">
+          <img src="logo.png" alt="Dominova logo" class="footer-logo" />
+          <span class="footer-brand-title">TECH<span class="brand-accent">AURA</span></span>
+        </div>
+        <p class="footer-tagline">Organized By Sathyabama Institute of Science and Technology</p>
+        <div class="footer-partner-badge">
+          <span class="partner-label">Innovation Strategic Partner</span>
+          <img src="logo.png" alt="Dominova logo" class="partner-logo-footer" />
+        </div>
+      </div>
+
+      <div class="footer-social-col">
+        <h4>Connect With Us</h4>
+        <div class="footer-socials" role="list">
+          <a href="#" class="social-link" role="listitem">Instagram</a>
+          <a href="#" class="social-link" role="listitem">LinkedIn</a>
+          <a href="#" class="social-link" role="listitem">YouTube</a>
+          <a href="mailto:contact@dominova.in" class="social-link" role="listitem">Email</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="footer-copy">&copy; 2026 Sathyabama Institute of Science and Technology &times; Dominova. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
